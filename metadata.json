@@ -1,0 +1,6 @@
+{
+  "name": "Musica",
+  "description": "A minimalist, warm cream aesthetic offline music player that closely mimics premium physical audio interfaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Stem (Musica M) - perfectly optimized inside safe zone -->
+    <path
+        android:pathData="M24,84 L24,24"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="9"
+        android:strokeLineCap="round" />
+        
+    <!-- Right Stem (Musica M) -->
+    <path
+        android:pathData="M84,24 L84,84"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="9"
+        android:strokeLineCap="round" />
+        
+    <!-- Diagonal Connection (Musica M V-shape) -->
+    <path
+        android:pathData="M24,24 L54,69 L84,24"
+        android:strokeColor="#1DB954"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+        
+    <!-- Left Note Circle (at bottom-left 24,84) -->
+    <path
+        android:pathData="M24,84m-11.5,0a11.5,11.5 0,1,1 23,0a11.5,11.5 0,1,1 -23,0"
+        android:fillColor="#1DB954" />
+        
+    <!-- Right Note Circle (at top-right 84,24) -->
+    <path
+        android:pathData="M84,24m-11.5,0a11.5,11.5 0,1,1 23,0a11.5,11.5 0,1,1 -23,0"
+        android:fillColor="#FFFFFF" />
+        
+</vector>
